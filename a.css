@@ -463,6 +463,7 @@ input[type=submit]
 	align-content:stretch;
 	overflow: hidden;
 	width: 3em;
+	height: 12em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
 	}
@@ -484,7 +485,7 @@ input[type=submit]
     header h1
     {
     letter-spacing: 0.5em;
-	font-size:1em;
+	font-size:1.5em;
     }
     .logo
     {
@@ -497,15 +498,15 @@ input[type=submit]
     }
     .about
     {
-    	width:10em;
+    	width:12em;
     }
     .aboutboxes
     {
-    	width: 6em;
+    	width: 8em;
     }
     .themes
     {
-    	width: 18em;
+    	width: 12em;
     }
 	.themesbox
 	{
@@ -513,9 +514,9 @@ input[type=submit]
 	}
 	.aloha, .siberia, .nordic
     {
-	margin:0.2em 0.4em 0.4em 0.4em;
-	padding:0.5em;
-    width: 15em;
+	margin:0.2em 0.5em 0.4em 0.5em;
+	padding:0.75em;
+    width: 12em;
 	max-height: 20em;
     }
     .pricing
@@ -528,7 +529,7 @@ input[type=submit]
     }
     th, td
     {
-	padding:0.25em;
+	padding:0.3em;
     }
     table
     {
@@ -553,15 +554,15 @@ input[type=submit]
     .contactcontent
     {
     width:16em;
-	padding:0.25em 0.5em 0.25em 0.5em;
+	padding:0.1em 0.25em 0.1em 0.25em;
     }
     .form1,.form2,.form3,.form4,.form5
    {
    	font-size: 0.5em;
-   	width:10em;
-	padding-bottom: 0.5em;
-	margin-left: 2em;
-	margin-right: 2em;
+   	width:12em;
+	padding-bottom: 0.25em;
+	margin-left: 1em;
+	margin-right: 1em;
 }
     .footerflowers img
     {
