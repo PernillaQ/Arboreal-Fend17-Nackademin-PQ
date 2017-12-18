@@ -298,16 +298,16 @@ footer
   @media only screen and (max-width : 1690px)
    {
    	    nav 
-{
-	width: 90em;
-	height: 2.5em;
-}
-nav>a
-{
-	width: 15em;
-	padding-top:0.7em;
-	padding-bottom: 0.7em;
-}
+      {
+     	width: 90em;
+    	height: 2.5em;
+      }
+      nav>a
+      {
+	   width: 20em;
+	   padding-top:0.7em;
+	   padding-bottom: 0.7em;
+       }
 nav img/* New - logo in navigationbar*/
 {
 	width: 2.5%;
@@ -347,7 +347,7 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 88em;
+    width: 90em;
 	padding: 2em 7.5em 6em 7.5em;
    }
    .contact
