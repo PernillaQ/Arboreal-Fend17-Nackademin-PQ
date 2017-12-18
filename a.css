@@ -460,17 +460,15 @@ input[type=submit]
 	}
 	nav
 	{
-        align-content: center;
-		flex-direction: column;
-		width: 25em;
-		height: 15em;
-		padding-bottom: 12em;
+	width: 5em;
+	padding-top:0.25em;
+	padding-bottom: 0.25em;
 	}
     nav>a
     {
-	width:20em;
-	padding-top:0.2em;
-	padding-bottom: 0.2em;
+	width:5em;
+	padding-top:0.25em;
+	padding-bottom: 0.25em;
     }
     nav>img
     {
@@ -478,7 +476,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 25em;
+    	width: 20em;
 	    height: 12em;
     }
     .aboutboxes
@@ -496,7 +494,7 @@ input[type=submit]
 	.aloha, .siberia, .nordic
     {
 	margin:0.2em 0.4em 0.4em 0.4em;
-	padding:1em;
+	padding:0.5em;
     width: 10em;
 	max-height: 20em;
     }
@@ -505,7 +503,7 @@ input[type=submit]
     justify-content: center;
     align-content: center;
 	background-color:#13181a;
-	width: 20em;
+	width: 10em;
 	padding: 0.2em 0.2em 0.8em 0.2em;
 	bottom: 0.4em;
     }
@@ -517,17 +515,17 @@ input[type=submit]
     {
     justify-content: center;
     align-content: center;
-	width:25em;
+	width:20em;
 	padding:1.5em 1em 0em 1em;
     }
     .contactcontent
     {
-    width:20em;
+    width:16em;
 	padding:0.25em 0.5em 0.25em 0.5em;
     }
     .footerflowers img
     {
-    	width: 25em;
+    	width: 20em;
     }
 
 }
