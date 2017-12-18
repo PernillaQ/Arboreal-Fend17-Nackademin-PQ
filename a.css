@@ -384,7 +384,7 @@ input[type=submit]
 	}
     nav>a
     {
-	width: 10.5em;
+	width: 10em;
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
     }
@@ -456,7 +456,7 @@ input[type=submit]
 	{
 		display: flex;
 		flex-direction: column;
-		width: 20em;
+		width: 15em;
 	}
     nav>a
     {
@@ -470,8 +470,8 @@ input[type=submit]
     }
     header img
     {
-    	width: 20em;
-	    height: 21em;
+    	width: 15em;
+	    height: auto;
     }
     .aboutboxes
     {
@@ -493,7 +493,7 @@ input[type=submit]
     justify-content: center;
     align-content: center;
 	background-color:#13181a;
-	width: 18em;
+	width: 15em;
 	padding: 0.8em 0.8em 2.6em 0.8em;
 	margin-bottom: 0.8em;
     }
@@ -503,7 +503,9 @@ input[type=submit]
     }
     .contact
     {
-	width:18em;
+    justify-content: center;
+    align-content: center;
+	width:15em;
 	padding:3em 2em 0em 2em;
     }
     .contactcontent
