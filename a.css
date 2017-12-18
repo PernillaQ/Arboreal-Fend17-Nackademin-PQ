@@ -461,11 +461,12 @@ input[type=submit]
 	{
 		display: flex;
 		flex-direction: column;
-		width: 10em;
+		width: 20em;
+		height: 15em;
 	}
     nav>a
     {
-	width:10em;
+	width:20em;
 	padding-top:0.2em;
 	padding-bottom: 0.2em;
     }
@@ -475,12 +476,16 @@ input[type=submit]
     }
     header img
     {
-    	width: 10em;
-	    height: auto;
+    	width: 20em;
+	    height: 12em;
     }
     .aboutboxes
     {
     	width: 6em;
+    }
+    .themes
+    {
+    	width: 20em;
     }
 	.themesbox
 	{
@@ -498,9 +503,9 @@ input[type=submit]
     justify-content: center;
     align-content: center;
 	background-color:#13181a;
-	width: 10em;
-	padding: 0.4em 0.4em 1em 0.4em;
-	margin-bottom: 0.8em;
+	width: 15em;
+	padding: 0.2em 0.2em 0.8em 0.2em;
+	bottom: 0.4em;
     }
    .pricing>h2
     {
@@ -510,13 +515,13 @@ input[type=submit]
     {
     justify-content: center;
     align-content: center;
-	width:10em;
+	width:20em;
 	padding:1.5em 1em 0em 1em;
     }
     .contactcontent
     {
     width:10em;
-	padding:0.5em 1em 0.5em 1em;
+	padding:0.25em 0.5em 0.25em 0.5em;
     }
     .footerflowers img
     {
