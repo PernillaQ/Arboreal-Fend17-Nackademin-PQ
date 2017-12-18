@@ -308,14 +308,9 @@ footer
 }
 nav>a
 {
-	background-color:#0c1114;
-	color:#ffffff;
-	width: 18em;
+	width: 16em;
 	padding-top:0.7em;
 	padding-bottom: 0.7em;
-	justify-content: center;
-	align-self:center;
-	text-decoration: none;
 }
 nav img/* New - logo in navigationbar*/
 {
@@ -358,7 +353,8 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 90em;
+    width: 75em;
+	padding: 2em 7.5em 6em 7.5em;
    }
    .contact
    {
