@@ -527,9 +527,6 @@ input[type=submit]
     }
     .pricing
     {
-    justify-content: center;
-    align-content: center;
-    font-size:0.5em;
 	width: 32em;
 	bottom: 0.4em;
     }
@@ -539,6 +536,7 @@ input[type=submit]
     }
     table
     {
+    font-size:0.5em;
 	padding:1em;   
     }
     h2
@@ -560,13 +558,13 @@ input[type=submit]
     .contactcontent
     {
     width:16em;
-	padding:0.1em 0.25em 0.1em 0.25em;
+	padding:0.1em 0.1em 0.1em 0.1em;
     }
     .form1,.form2,.form3,.form4,.form5
    {
    	font-size: 0.5em;
    	width:12em;
-	padding-bottom: 0.15em;
+	padding-bottom: 0.1em;
 	margin-left: 1em;
 	margin-right: 1em;
     }
