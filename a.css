@@ -459,7 +459,7 @@ input[type=submit]
 	}
 	nav
 	{
-	flex-direction: row;
+	display: inline;
 	align-content:stretch;
 	overflow: hidden;
 	width: 3em;
@@ -469,6 +469,7 @@ input[type=submit]
 	}
     nav>a
     {
+    font-size:0.5em;
 	width:3em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
@@ -480,7 +481,7 @@ input[type=submit]
     header img
     {
     	width: 30em;
-	    height: 12em;
+	    height: 14em;
     }
     header h1
     {
@@ -493,7 +494,7 @@ input[type=submit]
     }
     .logo img
     {
-	max-width: 10%;
+	max-width: 15%;
 	padding-bottom: 0.5em;
     }
     .about
@@ -506,11 +507,14 @@ input[type=submit]
     }
     .themes
     {
+    	justify-content: center;
     	width: 12em;
     }
 	.themesbox
 	{
+		width: 8em;
 		flex-direction: column;
+
 	}
 	.aloha, .siberia, .nordic
     {
@@ -524,12 +528,12 @@ input[type=submit]
     justify-content: center;
     align-content: center;
     font-size:0.5em;
-	width: 30em;
+	width: 32em;
 	bottom: 0.4em;
     }
     th, td
     {
-	padding:0.3em;
+	padding:0.4em;
     }
     table
     {
@@ -548,8 +552,8 @@ input[type=submit]
     .contact
     {
 	width:20em;
-	height: 30em;
-	padding:1em 0.5em 0em 0.5em;
+	height: 35em;
+	padding:0.5em 0.25em 0em 0.25em;
     }
     .contactcontent
     {
@@ -560,13 +564,13 @@ input[type=submit]
    {
    	font-size: 0.5em;
    	width:12em;
-	padding-bottom: 0.25em;
+	padding-bottom: 0.15em;
 	margin-left: 1em;
 	margin-right: 1em;
 }
     .footerflowers img
     {
-    	width: 20em;
+    	width: 18em;
     }
 
 }
