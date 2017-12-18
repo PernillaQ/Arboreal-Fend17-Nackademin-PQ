@@ -461,9 +461,6 @@ input[type=submit]
 	}
 	nav
 	{
-	display: inline-block;
-	align-content:stretch;
-	overflow: hidden;
 	width: 3em;
 	height: 12em;
 	padding-top:0.25em;
@@ -471,6 +468,9 @@ input[type=submit]
 	}
     nav>a
     {
+    display: flex;
+	flex-wrap: wrap;
+	align-content:stretch;
     font-size:0.5em;
 	width:3em;
 	padding-top:0.25em;
