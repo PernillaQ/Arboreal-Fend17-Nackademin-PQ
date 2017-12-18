@@ -448,24 +448,27 @@ input[type=submit]
 }
 @media (max-width:480px)
 {
-	
+	body
+	{
+		flex-direction: column;
+		align-content: center;
+	}
 	p
 	{
      font-size:0.5em;
 	}
 	nav
 	{
-	display: flex;
-	flex-wrap: wrap;
+	flex-direction: row;
 	align-content:stretch;
 	overflow: hidden;
-	width: 4em;
+	width: 3em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
 	}
     nav>a
     {
-	width:5em;
+	width:3em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
     }
@@ -485,7 +488,7 @@ input[type=submit]
     }
     .about
     {
-    	width:25em;
+    	width:20em;
     }
     .aboutboxes
     {
@@ -493,7 +496,7 @@ input[type=submit]
     }
     .themes
     {
-    	width: 25em;
+    	width: 20em;
     }
 	.themesbox
 	{
@@ -512,7 +515,6 @@ input[type=submit]
     align-content: center;
     font-size:0.5em;
 	width: 25em;
-	padding: 0.2em 0.2em 0.8em 0.2em;
 	bottom: 0.4em;
     }
     th, td
@@ -544,9 +546,11 @@ input[type=submit]
     }
     .form1,.form2,.form3,.form4,.form5
    {
+   	font-size: 0.5em;
+   	width:10em;
 	padding-bottom: 0.5em;
-	margin-left: 4em;
-	margin-right: 4em;
+	margin-left: 2em;
+	margin-right: 2em;
 }
     .footerflowers img
     {
