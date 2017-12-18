@@ -455,7 +455,10 @@ input[type=submit]
 	}
 	nav
 	{
-	display: inline;
+	display: flex;
+	flex-wrap: wrap;
+	align-content:stretch;
+	overflow: hidden;
 	width: 4em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
@@ -514,28 +517,37 @@ input[type=submit]
     }
     th, td
     {
-	padding:.25em;
+	padding:0.25em;
     }
     table
     {
 	padding:1em;   
     }
-   .pricing>h2
+    h2
     {
+    font-size: 1em;
     text-align: center;
+    }h2
+    {
+    	font-size:0.8em;
     }
+
     .contact
     {
-    justify-content: center;
-    align-content: center;
 	width:20em;
-	padding:1.5em 1em 0em 1em;
+	padding:1em 0.5em 0em 0.5em;
     }
     .contactcontent
     {
     width:16em;
 	padding:0.25em 0.5em 0.25em 0.5em;
     }
+    .form1,.form2,.form3,.form4,.form5
+   {
+	padding-bottom: 0.5em;
+	margin-left: 4em;
+	margin-right: 4em;
+}
     .footerflowers img
     {
     	width: 20em;
