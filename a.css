@@ -448,19 +448,15 @@ input[type=submit]
 }
 @media (max-width:480px)
 {
-	body
-	{
-		display: flex;
-		flex-direction: column;
-		align-content: center;
-	}
+	
 	p
 	{
      font-size:0.5em;
 	}
 	nav
 	{
-	width: 5em;
+	display: inline;
+	width: 4em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
 	}
@@ -476,8 +472,17 @@ input[type=submit]
     }
     header img
     {
-    	width: 20em;
+    	width: 25em;
 	    height: 12em;
+    }
+    header h1
+    {
+    letter-spacing: 0.5em;
+	font-size:1em;
+    }
+    .about
+    {
+    	width:25em;
     }
     .aboutboxes
     {
@@ -502,10 +507,18 @@ input[type=submit]
     {
     justify-content: center;
     align-content: center;
-	background-color:#13181a;
-	width: 10em;
+    font-size:0.5em;
+	width: 25em;
 	padding: 0.2em 0.2em 0.8em 0.2em;
 	bottom: 0.4em;
+    }
+    th, td
+    {
+	padding:.25em;
+    }
+    table
+    {
+	padding:1em;   
     }
    .pricing>h2
     {
