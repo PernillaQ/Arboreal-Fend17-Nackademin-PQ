@@ -298,6 +298,7 @@ footer
    	    
    	    nav
    	    {
+   	    width: 90em;
         align-content:stretch;
 		width: 90em;
    	    }
@@ -335,6 +336,8 @@ footer
     .contactcontent
     {
     width: 60em;
+    padding-right: 5em;
+    padding-left: 5em;
     }
 
 
