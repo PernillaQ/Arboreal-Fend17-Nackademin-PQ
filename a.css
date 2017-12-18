@@ -295,7 +295,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (max-width : 1690px)
+  @media only screen and (max-width : 1824px)
    {
    	    nav 
       {
@@ -446,7 +446,7 @@ input[type=submit]
 
 
 }
-@media (max-width:480px)
+@media (max-width:320px)
 {
 	body
 	{
