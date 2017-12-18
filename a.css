@@ -326,18 +326,17 @@ footer
     {
     justify-content: center;
     align-content: center;
-    width: 82em;
+    width: 80em;
    }
    .contact
    {
-    width:88em;
+    width:90em;
 	height:65em;
     }
     .contactcontent
     {
     width: 62em;
-    padding-right: 8em;
-    padding-left: 8em;
+    padding:5em 8em 5em 8em;
     }
 
 
