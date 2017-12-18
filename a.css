@@ -295,7 +295,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (max-width: 1690px)
+  @media only screen and (min-width : 1290px)
    {
    	    nav 
       {
@@ -304,7 +304,7 @@ footer
       }
       nav>a
       {
-	   width: 22em;
+	   width: 27em;
 	   padding-top:0.7em;
 	   padding-bottom: 0.7em;
        }
@@ -446,7 +446,7 @@ input[type=submit]
 
 
 }
-@media (max-width:360px)
+@media (max-width:480px)
 {
 	body
 	{
@@ -492,8 +492,9 @@ input[type=submit]
     {
     justify-content: center;
     align-content: center;
+	background-color:#13181a;
 	width: 18em;
-	padding: 0.5em 0.5em 1.6em 0.5em;
+	padding: 0.8em 0.8em 2.6em 0.8em;
 	margin-bottom: 0.8em;
     }
    .pricing>h2
@@ -507,7 +508,7 @@ input[type=submit]
     }
     .contactcontent
     {
-    width:12em;
+    width:10em;
 	padding:2em 3em 1em 3em;
     }
     .form1,.form2,.form3,.form4,.form5
