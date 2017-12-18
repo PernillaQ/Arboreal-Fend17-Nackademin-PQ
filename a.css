@@ -298,13 +298,13 @@ footer
    	    
    	    nav
    	    {
-   	    width: 90em;
+
         align-content:stretch;
 		width: 90em;
    	    }
    	     nav>a
    	    {
-   	    width: 18em;
+   	    width: 22em;
         }
 		header img
         {
@@ -326,18 +326,18 @@ footer
     {
     justify-content: center;
     align-content: center;
-    width: 84em;
+    width: 82em;
    }
    .contact
    {
-    width:86em;
+    width:88em;
 	height:65em;
     }
     .contactcontent
     {
-    width: 60em;
-    padding-right: 5em;
-    padding-left: 5em;
+    width: 62em;
+    padding-right: 8em;
+    padding-left: 8em;
     }
 
 
