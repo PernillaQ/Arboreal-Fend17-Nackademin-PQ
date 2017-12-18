@@ -325,13 +325,18 @@ footer
     {
     justify-content: center;
     align-content: center;
-    width: 80em;
+    width: 84em;
    }
    .contact
    {
     width:86em;
 	height:65em;
     }
+    .contactcontent
+    {
+    width: 60em;
+    }
+
 
 @media (max-width:768px)
 {
