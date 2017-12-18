@@ -293,7 +293,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (max-width : 1200px)
+  @media only screen and (max-width : 1690px)
    {
    	    body
    	    {
@@ -391,7 +391,7 @@ footer
 
 
 }
-@media (max-width:320px)
+@media (max-width:480px)
 {
 	body
 	{
@@ -399,6 +399,7 @@ footer
 	}
 	nav
 	{
+		display: flex;
 		flex-direction: column;
 		width: 20em;
 	}
