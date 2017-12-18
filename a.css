@@ -308,7 +308,7 @@ footer
 }
 nav>a
 {
-	width: 16em;
+	width: 14em;
 	padding-top:0.7em;
 	padding-bottom: 0.7em;
 }
@@ -353,7 +353,7 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 75em;
+    width: 80em;
 	padding: 2em 7.5em 6em 7.5em;
    }
    .contact
