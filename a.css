@@ -324,9 +324,7 @@ footer
 	   }  
     .pricing
     {
-    justify-content: center;
-    align-content: center;
-    width: 80em;
+    width: 78em;
    }
    .contact
    {
@@ -335,9 +333,15 @@ footer
     }
     .contactcontent
     {
-    width: 62em;
+    width: 65em;
     padding:5em 8em 5em 8em;
     }
+    .form1,.form2,.form3,.form4,.form5
+{
+	padding-bottom: 1.5em;
+	padding-left: 8em;
+	padding-right: 8em;
+}
 
 
 @media (max-width:768px)
