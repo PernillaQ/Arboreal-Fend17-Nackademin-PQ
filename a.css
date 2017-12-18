@@ -48,6 +48,8 @@ header img
 }
 nav 
 {
+	width: 75em;
+	background-color:#0c1114;
 	position: fixed;
 	z-index: 999;/* New */
 	display: flex;
@@ -297,13 +299,7 @@ footer
    {
    	    nav 
 {
-	position: fixed;
-	z-index: 999;/* New */
-	display: flex;
-	flex-wrap: wrap;
-	align-content:stretch;
-	overflow: hidden;
-	top:0;
+	width: 90em;
 	height: 2.5em;
 }
 nav>a
@@ -351,7 +347,7 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 84em;
+    width: 88em;
 	padding: 2em 7.5em 6em 7.5em;
    }
    .contact
