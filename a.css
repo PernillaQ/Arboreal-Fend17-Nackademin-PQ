@@ -307,10 +307,26 @@ footer
         }
 		header img
         {
-	    position: relative;
 	    width: 90em;
 	    height: 47em;
 	    }
+	   .themesbox
+	    {
+		justify-content: center;
+	    }
+	   .aloha, .siberia, .nordic
+	   {
+       margin:1em 2.5em 2em 2.5em;
+	   padding:3em;
+       width: 20em;
+	   max-height: 40em;
+	   }  
+    .pricing
+    {
+    justify-content: center;
+    align-content: center;
+    width: 75em;
+	padding: 2em 7.5em 6em 7.5em;
    }
 @media (max-width:768px)
 {
