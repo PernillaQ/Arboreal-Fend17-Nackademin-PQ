@@ -303,7 +303,7 @@ footer
    	    }
    	     nav>a
    	    {
-   	    width: 20em;
+   	    width: 18em;
         }
 		header img
         {
@@ -325,9 +325,14 @@ footer
     {
     justify-content: center;
     align-content: center;
-    width: 75em;
-	padding: 2em 7.5em 6em 7.5em;
+    width: 77em;
    }
+   .contact
+   {
+    width:71em;
+	height:65em;
+    }
+
 @media (max-width:768px)
 {
 	body
