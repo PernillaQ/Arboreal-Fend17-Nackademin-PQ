@@ -295,8 +295,41 @@ footer
 
   @media only screen and (max-width : 1690px)
    {
-   	    
-   	    nav
+   	    nav 
+{
+	position: fixed;
+	z-index: 999;/* New */
+	display: flex;
+	flex-wrap: wrap;
+	align-content:stretch;
+	overflow: hidden;
+	top:0;
+	height: 2.5em;
+}
+nav>a
+{
+	background-color:#0c1114;
+	color:#ffffff;
+	width: 22em;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+	justify-content: center;
+	align-self:center;
+	text-decoration: none;
+}
+nav img/* New - logo in navigationbar*/
+{
+	background-color: #0c1114;
+    align-self: center;
+	width: 2.5%;
+	height: auto;
+	padding-top: 0.2em;
+	padding-left: 6em;
+	padding-bottom: 0.3em;
+	padding-right: 6em;
+	z-index: 999;
+}
+   	  /*  nav
    	    {
 
         align-content:stretch;
@@ -305,9 +338,10 @@ footer
    	     nav>a
    	    {
    	    width: 20em;
-        }
+        }*/
 		header img
         {
+        align-self: stretch;
 	    width: 90em;
 	    height: 47em;
 	    }
@@ -324,7 +358,7 @@ footer
 	   }  
     .pricing
     {
-    width: 75em;
+    width: 70em;
    }
    .contact
    {
