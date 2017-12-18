@@ -459,7 +459,7 @@ input[type=submit]
 	}
 	nav
 	{
-	display: inline;
+	display: inline-block;
 	align-content:stretch;
 	overflow: hidden;
 	width: 3em;
@@ -567,10 +567,16 @@ input[type=submit]
 	padding-bottom: 0.15em;
 	margin-left: 1em;
 	margin-right: 1em;
-}
+    }
     .footerflowers img
     {
     	width: 18em;
+    }
+    .footer
+    {
+	font-size: 0.5em;
+	text-align: center;
+    padding:0.2em;
     }
 
 }
