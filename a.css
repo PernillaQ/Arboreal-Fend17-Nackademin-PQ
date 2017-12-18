@@ -371,7 +371,7 @@ input[type=submit]
 	margin-bottom: 5em; 
 }
 
-@media (max-width:768px)
+@media (min-width:490px) (max-width:768px)
 {
 	body
 	{
