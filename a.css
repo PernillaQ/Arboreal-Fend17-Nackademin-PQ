@@ -324,7 +324,7 @@ footer
 	   }  
     .pricing
     {
-    width: 82em;
+    width: 84em;
    }
    .contact
    {
@@ -334,15 +334,12 @@ footer
     .contactcontent
     {
     width: 50em;
-    padding:5em 8em 5em 8em;
-    margin-left: 15em;
-    margin-right:15em;
     }
     .form1,.form2,.form3,.form4,.form5
 {
 	padding-bottom: 1.5em;
-	padding-left: 10em;
-	padding-right: 10em;
+	margin-left: 10em;
+	margin-right: 10em;
 }
 input[type=submit]
 {
