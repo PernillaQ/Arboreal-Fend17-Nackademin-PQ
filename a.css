@@ -446,12 +446,13 @@ input[type=submit]
 
 
 }
-@media (max-width:320px)
+@media (max-width:480px)
 {
 	body
 	{
 		display: flex;
 		flex-direction: column;
+		align-content: center;
 	}
 	p
 	{
@@ -459,10 +460,11 @@ input[type=submit]
 	}
 	nav
 	{
-		display: flex;
+        align-content: center;
 		flex-direction: column;
-		width: 20em;
+		width: 25em;
 		height: 15em;
+		padding-bottom: 12em;
 	}
     nav>a
     {
@@ -476,7 +478,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 20em;
+    	width: 25em;
 	    height: 12em;
     }
     .aboutboxes
@@ -485,7 +487,7 @@ input[type=submit]
     }
     .themes
     {
-    	width: 20em;
+    	width: 25em;
     }
 	.themesbox
 	{
@@ -494,16 +496,16 @@ input[type=submit]
 	.aloha, .siberia, .nordic
     {
 	margin:0.2em 0.4em 0.4em 0.4em;
-	padding:2em;
-    width: 8em;
-	max-height: 18em;
+	padding:1em;
+    width: 10em;
+	max-height: 20em;
     }
     .pricing
     {
     justify-content: center;
     align-content: center;
 	background-color:#13181a;
-	width: 15em;
+	width: 20em;
 	padding: 0.2em 0.2em 0.8em 0.2em;
 	bottom: 0.4em;
     }
@@ -515,17 +517,17 @@ input[type=submit]
     {
     justify-content: center;
     align-content: center;
-	width:20em;
+	width:25em;
 	padding:1.5em 1em 0em 1em;
     }
     .contactcontent
     {
-    width:10em;
+    width:20em;
 	padding:0.25em 0.5em 0.25em 0.5em;
     }
     .footerflowers img
     {
-    	width: 20em;
+    	width: 25em;
     }
 
 }
