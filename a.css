@@ -308,14 +308,12 @@ footer
 }
 nav>a
 {
-	width: 14em;
+	width: 15em;
 	padding-top:0.7em;
 	padding-bottom: 0.7em;
 }
 nav img/* New - logo in navigationbar*/
 {
-	background-color: #0c1114;
-    align-self: center;
 	width: 2.5%;
 	height: auto;
 	padding-top: 0.2em;
@@ -353,7 +351,7 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 80em;
+    width: 84em;
 	padding: 2em 7.5em 6em 7.5em;
    }
    .contact
