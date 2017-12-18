@@ -379,11 +379,13 @@ input[type=submit]
 	}
 	nav
 	{
-		align-content:stretch;
 		width: 45em;
 	}
     nav>a
     {
+    display: flex;
+	flex-wrap: wrap;
+	align-content:stretch;
 	width: 10em;
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
