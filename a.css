@@ -310,9 +310,9 @@ nav>a
 {
 	background-color:#0c1114;
 	color:#ffffff;
-	width: 22em;
-	padding-top:0.5em;
-	padding-bottom: 0.5em;
+	width: 20em;
+	padding-top:0.7em;
+	padding-bottom: 0.7em;
 	justify-content: center;
 	align-self:center;
 	text-decoration: none;
@@ -358,7 +358,7 @@ nav img/* New - logo in navigationbar*/
 	   }  
     .pricing
     {
-    width: 70em;
+    width: 79em;
    }
    .contact
    {
