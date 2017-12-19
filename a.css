@@ -157,6 +157,7 @@ i:hover
 
 .aloha, .siberia, .nordic
 {
+	/*Hoover img? */
 	position: relative;
     flex-direction: column;
 	background-color: #ffffff;
@@ -295,7 +296,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (max-width : 1824px)
+  @media only screen and (min-width : 1824px)
    {
    	    nav 
       {
