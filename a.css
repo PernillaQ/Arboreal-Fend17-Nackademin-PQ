@@ -296,7 +296,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (max-width : 1824px)
+  @media only screen and (min-width : 1824px)
    {
    	    nav 
       {
@@ -305,7 +305,7 @@ footer
       }
       nav>a
       {
-	   width: 18em;
+	   width: 20em;
 	   padding-top:0.7em;
 	   padding-bottom: 0.7em;
        }
@@ -319,7 +319,7 @@ nav img/* New - logo in navigationbar*/
 	padding-right: 6em;
 	z-index: 999;
 }
-   	    nav
+   	  /*  nav
    	    {
 
         align-content:stretch;
@@ -327,8 +327,8 @@ nav img/* New - logo in navigationbar*/
    	    }
    	     nav>a
    	    {
-   	    width: 18em;
-        }
+   	    width: 20em;
+        }*/
 		header img
         {
         align-self: stretch;
@@ -449,12 +449,11 @@ input[type=submit]
 
 
 }
-@media (max-width:480px)
+@media (min-width: 320px) and (max-width:480px)
 {
 	body
 	{
 		flex-direction: column;
-		justify-content: center;
 		align-content: center;
 	}
 	p
@@ -482,7 +481,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 20em;
+    	width: 25em;
 	    height: 14em;
     }
     header h1
@@ -511,11 +510,11 @@ input[type=submit]
     .themes
     {
       /*  justify-content: center;*/
-    	width: 18em;
+    	width: 20em;
     }
 	.themesbox
 	{
-		width: 18em;
+		/*width: 8em;*/
 		flex-direction: column;
 
 	}
@@ -529,7 +528,7 @@ input[type=submit]
     }
     .pricing
     {
-	width: 17em;
+	width: 18em;
 	bottom: 0.4em;
     }
     th, td
@@ -553,7 +552,6 @@ input[type=submit]
 
     .contact
     {
-    	justify-content: center;
 	width:20em;
 	height: 35em;
 	padding:0.5em 0.25em 0em 0.25em;
@@ -574,7 +572,6 @@ input[type=submit]
     .footerflowers img
     {
     	width: 18em;
-    	height:10em;
     }
     .footer
     {
