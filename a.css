@@ -514,21 +514,21 @@ input[type=submit]
     }
 	.themesbox
 	{
-		/*width: 8em;*/
+		width: 20em;
 		flex-direction: column;
 
 	}
-	/*.aloha, .siberia, .nordic
+	.aloha, .siberia, .nordic
     {
     	
 	margin:0.2em 0.5em 0.4em 0.5em;
 	padding:0.75em;
-    width: 12em;
+  /*  width: 12em;*/
 	max-height: 20em;
-    }*/
+    }
     .pricing
     {
-	width: 20em;
+	width: 18em;
 	bottom: 0.4em;
     }
     th, td
@@ -552,30 +552,26 @@ input[type=submit]
 
     .contact
     {
-    width:100%;
-	/*width:20em;
+	width:20em;
 	height: 35em;
-	padding:0.5em 0.25em 0em 0.25em;*/
+	padding:0.5em 0.25em 0em 0.25em;
     }
     .contactcontent
     {
-     width:100%;
-    /*width:16em;
-	padding:0.1em 0.1em 0.1em 0.1em;*/
+    width:16em;
+	padding:0.1em 0.1em 0.1em 0.1em;
     }
     .form1,.form2,.form3,.form4,.form5
    {
-    width:100%;
-   	/*font-size: 0.5em;
+   	font-size: 0.5em;
    	width:12em;
 	padding-bottom: 0.1em;
 	margin-left: 1em;
-	margin-right: 1em;*/
+	margin-right: 1em;
     }
     .footerflowers img
     {
-    	width: 100%;
-    	/*width: 18em;*/
+    	width: 18em;
     }
     .footer
     {
