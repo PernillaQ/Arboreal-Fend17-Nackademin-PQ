@@ -469,11 +469,9 @@ input[type=submit]
 	}
     nav>a
     {
-    display: flex;
-	flex-wrap: wrap;
-	align-content:stretch;
+    background-color: transparent;
     font-size:0.5em;
-	width:3em;
+	width:4em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
     }
@@ -483,7 +481,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 30em;
+    	width: 25em;
 	    height: 14em;
     }
     header h1
@@ -500,13 +498,14 @@ input[type=submit]
 	max-width: 15%;
 	padding-bottom: 0.5em;
     }
-    .about
+    /*.about
     {
     	width:12em;
-    }
+    }*/
     .aboutboxes
     {
-    	width: 8em;
+    	/*width: 8em;*/
+    	width: 100%
     }
     .themes
     {
