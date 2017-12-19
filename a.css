@@ -319,7 +319,7 @@ nav img/* New - logo in navigationbar*/
 	padding-right: 6em;
 	z-index: 999;
 }
-   	  /*  nav
+   	    nav
    	    {
 
         align-content:stretch;
@@ -327,8 +327,8 @@ nav img/* New - logo in navigationbar*/
    	    }
    	     nav>a
    	    {
-   	    width: 20em;
-        }*/
+   	    width: 18em;
+        }
 		header img
         {
         align-self: stretch;
@@ -449,7 +449,7 @@ input[type=submit]
 
 
 }
-@media (min-width: 320px) and (max-width:480px)
+@media (max-width:480px)
 {
 	body
 	{
