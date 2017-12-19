@@ -296,7 +296,7 @@ footer
 	padding: 0.5em;
 }
 
-  @media only screen and (min-width : 1824px)
+/*  @media only screen and (max-width : 1824px)
    {
    	    nav 
       {
@@ -310,7 +310,7 @@ footer
 	   padding-bottom: 0.7em;
        }
 nav img/* New - logo in navigationbar*/
-{
+/*{
 	width: 2.5%;
 	height: auto;
 	padding-top: 0.2em;
@@ -329,7 +329,7 @@ nav img/* New - logo in navigationbar*/
    	    {
    	    width: 20em;
         }*/
-		header img
+		/*header img
         {
         align-self: stretch;
 	    width: 90em;
@@ -371,11 +371,13 @@ input[type=submit]
 	margin-top: 1em;
 	margin-bottom: 5em; 
 }
-
-@media (max-width:768px)
+*/
+/* lägga till 1068 ipad plus */
+@media  (max-width:768px)
 {
 	body
 	{
+		justify-content: center;
 		flex-direction: column;
 	}
 	nav
@@ -387,7 +389,7 @@ input[type=submit]
     display: flex;
 	flex-wrap: wrap;
 	align-content:stretch;
-	width: 10em;
+	width: 11em;
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
     }
@@ -397,22 +399,28 @@ input[type=submit]
     }
     header img
     {
-    	width: 42em;
+    	width: 45em;
 	    height: 25em;
+    }
+    .logo
+    {
+    	padding-top: 3em;
+	    padding-bottom: 3em;
     }
     .aboutboxes
     {
-    	width: 16em;
+    	width: 28em;
     }
 	.themesbox
 	{
+		justify-content: center;
 		flex-direction: column;
 	}
 	.aloha, .siberia, .nordic
     {
 	margin:1em 2em 2em 0.5em;
 	padding:4em;
-    width: 24em;
+    width: 28em;
 	max-height: 40em; 
     }
     .pricing
@@ -420,8 +428,8 @@ input[type=submit]
     justify-content: center;
     align-content: center;
 	background-color:#13181a;
-	width: 37.5em;
-	padding: 2em 2em 6em 2em;
+	width: 36em;
+	padding: 3em 4em 6em 4em;
 	margin-bottom: 2em;
     }
    .pricing>h2
@@ -430,12 +438,12 @@ input[type=submit]
     }
     .contact
     {
-	width:37.5em;
-	padding:3em 2em 0em 2em;
+	width:36em;
+	padding:3em 4em 0em 4em;
     }
     .contactcontent
     {
-    width:30em;
+    width:35em;
 	padding:1.5em 1em 1em 1em;
     }
     .form1,.form2,.form3,.form4,.form5
@@ -444,15 +452,16 @@ input[type=submit]
     }
     .footerflowers img
     {
-    	width: 42em;
+    	width: 35em;
     }
 
 
 }
-@media (min-width: 320px) and (max-width:480px)
+@media (max-width:480px)
 {
 	body
-	{
+	{ 
+		display: inline-flex;
 		flex-direction: column;
 		align-content: center;
 	}
@@ -481,7 +490,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 25em;
+    	width: 32em;
 	    height: 14em;
     }
     header h1
@@ -495,27 +504,28 @@ input[type=submit]
     }
     .logo img
     {
-	max-width: 15%;
+	max-width: 10%;
 	padding-bottom: 0.5em;
     }
-    /*.about
+    .about
     {
-    	width:12em;
-    }*/
+    	width:25em;
+    }
     .aboutboxes
     {
-    	/*width: 8em;*/
-    	width: 100%
+    	width: 16em;
+    	
     }
     .themes
     {
-      /*  justify-content: center;*/
-    	width: 20em;
+        justify-content: center;
+    	width: 25em;
     }
 	.themesbox
 	{
 		/*width: 8em;*/
 		flex-direction: column;
+		justify-content: center;
 
 	}
 	.aloha, .siberia, .nordic
@@ -523,22 +533,22 @@ input[type=submit]
     	
 	margin:0.2em 0.5em 0.4em 0.5em;
 	padding:0.75em;
-    width: 12em;
+    width: 22.5em;
 	max-height: 20em;
     }
     .pricing
     {
-	width: 18em;
-	bottom: 0.4em;
+	width: 25em;
+	bottom: 0.5em;
     }
     th, td
     {
-	padding:0.4em;
+	padding:2em;
     }
     table
     {
     font-size:0.5em;
-	padding:0.8em; 
+	padding:1em; 
     }
     h2
     {
@@ -552,26 +562,32 @@ input[type=submit]
 
     .contact
     {
-	width:20em;
-	height: 35em;
-	padding:0.5em 0.25em 0em 0.25em;
+    flex-direction: column;
+    justify-content: center;
+    width: 25em;
+    height: 37em;
     }
     .contactcontent
     {
-    width:16em;
-	padding:0.1em 0.1em 0.1em 0.1em;
+    width:22em;
+    height: 36em;
     }
     .form1,.form2,.form3,.form4,.form5
    {
    	font-size: 0.5em;
-   	width:12em;
+   	width:18em;
 	padding-bottom: 0.1em;
-	margin-left: 1em;
 	margin-right: 1em;
+	margin-left:6.5em;
+    }
+    input
+    {
+    font-size:0.75em;
     }
     .footerflowers img
     {
-    	width: 18em;
+     width: 25em;
+     height: 6em;
     }
     .footer
     {
