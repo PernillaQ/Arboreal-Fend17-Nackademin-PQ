@@ -481,7 +481,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 25em;
+    	width: 20em;
 	    height: 14em;
     }
     header h1
@@ -510,11 +510,11 @@ input[type=submit]
     .themes
     {
       /*  justify-content: center;*/
-    	width: 20em;
+    	width: 18em;
     }
 	.themesbox
 	{
-		width: 20em;
+		width: 18em;
 		flex-direction: column;
 
 	}
@@ -523,12 +523,12 @@ input[type=submit]
     	
 	margin:0.2em 0.5em 0.4em 0.5em;
 	padding:0.75em;
-  /*  width: 12em;*/
+    width: 18em;
 	max-height: 20em;
     }
     .pricing
     {
-	width: 18em;
+	width: 17em;
 	bottom: 0.4em;
     }
     th, td
@@ -552,6 +552,7 @@ input[type=submit]
 
     .contact
     {
+    justify-content: center;
 	width:20em;
 	height: 35em;
 	padding:0.5em 0.25em 0em 0.25em;
@@ -572,6 +573,7 @@ input[type=submit]
     .footerflowers img
     {
     	width: 18em;
+    	height: 10em;
     }
     .footer
     {
