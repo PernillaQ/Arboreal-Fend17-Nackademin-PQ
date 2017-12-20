@@ -18,6 +18,15 @@ Assignment Containing:
 - Adding JavaScript is allowed though no extra cred, due to the course is in HTML/CSS.
 - Important - HTML and CSS - correctly indented.
 - Validated by W3C HTLM Validator /W3C CSS Validator containing no varnings or errors.
+   <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+  
+
+
+  
 
 Here you will also be able to read a input from a fellow student due to the Peerview. 
 The feedback will be used to make adjustments and improve the site. New features will be added in the next step.
@@ -34,6 +43,38 @@ The things my classmate (Selected by teacher) will be looking at are:
 
 So Here´s my first attempt at the Arboreal -Assignment. 
 Validated by W3C Validators HTML and CSS without any varnings or errors. On bottom of the site you can find the W3C Validated "stamp".
+  Arboreal - Part 2.
+  
+  Feedback from fellow student:
+  * HTML and CSS looks nice and well structured.
+  
+  Improvement ideas:
+  NAVIGATION
+  * Left side menu with shorter distans in between adding logo to the right side of Navigation.
+  - I did´nt follw this advice, thou I think it was a good one. But I did attach the logo to the navigation bar, but on the left side.
+ 
+ HEADER
+  * What is the main focus? The picture or the companyname?
+  - I to realized that the image was taking up to much of the attantion, so I workd on it in Photoshop by adding filters and layers of the background color to blend the image to the background. 
+  - I also added some text-shadow to the header.
+  
+  TEXT-ALIGN
+  * Suggestion left-aligned text as it is easier to read.
+  - I did not implement that because I my self like centered text.
+  
+  TABLE
+  * unnecessary hoover on the table-data.
+  - True. It was´nt that pretty, but fun to play with. So yes, I took it away.
+  
+  BODY
+  * To similar colors, make a confusing impression.
+  - Well I remade all the colors, by working with collecting colors in photoshop from the main picture.
+    Using gradiants to blend them in. 
+    
+   The new assignments for the second part of the assignment are:
+   
+   
+  
 
 Pernilla Qvist -Frontend Development -Nackademin 2017.
 
