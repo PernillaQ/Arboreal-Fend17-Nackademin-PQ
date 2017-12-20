@@ -1,6 +1,6 @@
 body
 {   
-	background-color: #0c1114;
+	background-color:#090c12;
 	color:#ffffff;
 	font-family: verdana;
 	margin:2.5em 2em 2em 2em;
@@ -16,12 +16,14 @@ h2
 {
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
+	
 }
 h3
 {
-	color:#703452;
+	color:#786479;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+
 }
 p
 {
@@ -36,6 +38,7 @@ header
 header h1
 {
 	letter-spacing: 1em;
+	text-shadow: 0.1em 0.1em #090c12;
 	position: absolute;
 
 }
@@ -49,7 +52,6 @@ header img
 nav 
 {
 	width: 75em;
-	background-color:#0c1114;
 	position: fixed;
 	z-index: 999;/* New */
 	display: flex;
@@ -61,7 +63,7 @@ nav
 }
 nav>a
 {
-	background-color:#0c1114;
+	background-color:#090c12;
 	color:#ffffff;
 	width: 15.65em;
 	padding-top:0.5em;
@@ -84,15 +86,16 @@ nav img/* New - logo in navigationbar*/
 }
 a:hover
 {
-	background-color:#1a2023;
-    border-radius: 0.3em;	
+	color: #627066;
 }
 .logo
 {
 	display: flex;
 	flex-direction: column;
-	background-color: #0c1114;
+	background:linear-gradient(#090c12,#03171d);
+	/*background-color: #0c1114;*/
 	font-size: 1em;
+	text-shadow: 0.1em 0.1em #090c12;
 	padding-top: 4em;
 	padding-bottom: 4em;
 }
@@ -105,7 +108,7 @@ a:hover
 }
 i:hover
 {
-    color: #703452;
+    color: #627066;
 }
 .about
 {
@@ -113,7 +116,7 @@ i:hover
 	flex-direction: column;
 	align-items: center;
 	height:auto;
-	background-color:#13181a;
+    background:linear-gradient(#03171d,#090c12);
 	padding: 2em 4em 6em 4em;
     border-radius: 0.3em;     
 }
@@ -132,6 +135,7 @@ i:hover
     display:flex;
     flex-direction: column;
 	height: auto;
+	background:linear-gradient(#03171d,#090c12);
 	background-color: #13181a;
 	padding: 2em 4em 4em 4em;
     border-radius: 0.3em;  
@@ -177,7 +181,8 @@ i:hover
 }
 .pricing
 {
-	background-color:#13181a;
+	background:linear-gradient(#03171d,#090c12);
+	/*background-color:#13181a;*/
 	width: 60em;
 	padding: 2em 7.5em 6em 7.5em;
 	margin-bottom: 2em;
@@ -193,17 +198,15 @@ th, td
 }
 th
 {
-	color:#703452;
+	color:#786479;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 }
-td:hover
-{
-	background-color: #1a2023;
-	color: #ffffff;	
-}
+/*td:hoover removed */
 table
 {
+	justify-content: center;
+	align-content:center;
 	border-collapse: collapse;
 	padding:4em;   
 }
@@ -215,9 +218,11 @@ table
 	width:71em;
 	height:65em;
 	padding:6em 2em 6em 2em;
-	background-color:#13181a;
+	background:linear-gradient( #03171d 30%, #090c12 40%, #03171d 60%);
+
+	background:linear-gradient(#03171d,#090c12);
+	/*background-color:#13181a;*/
 	color: #bfa161;
-	margin-bottom: 4em;
     border-radius: 0.5em;   
 }
 .contactcontent img
@@ -254,7 +259,9 @@ input[type=submit]
 {
 	margin-top: 1em;
 	margin-bottom: 3em;
-	background-color:#703452;
+	background:linear-gradient(#786479,#703452);
+
+/*	background-color:#703452;*/
 	color: #ffffff;
     padding: 0.5em 4em;
     border: none;
@@ -272,6 +279,7 @@ footer
 	display: flex;
 	justify-content: center;
 	align-content: center;
+    
 }
 .footer
 {
@@ -280,6 +288,7 @@ footer
 	font-size: 0.7em;
 	text-align: center;
     padding:0.5em;
+    margin-top:5em;
 }
 .footerflowers img
 {
@@ -295,85 +304,127 @@ footer
 	font-size: 2em;
 	padding: 0.5em;
 }
-
-/*  @media only screen and (max-width : 1824px)
-   {
-   	    nav 
-      {
-     	width: 90em;
-    	height: 2.5em;
-      }
-      nav>a
-      {
-	   width: 20em;
-	   padding-top:0.7em;
-	   padding-bottom: 0.7em;
-       }
-nav img/* New - logo in navigationbar*/
-/*{
-	width: 2.5%;
-	height: auto;
-	padding-top: 0.2em;
-	padding-left: 6em;
-	padding-bottom: 0.3em;
-	padding-right: 6em;
-	z-index: 999;
+.footer>a:hover
+{
+	color: #627066;
 }
-   	  /*  nav
-   	    {
 
-        align-content:stretch;
-		width: 90em;
-   	    }
-   	     nav>a
-   	    {
-   	    width: 20em;
-        }*/
-		/*header img
-        {
-        align-self: stretch;
-	    width: 90em;
-	    height: 47em;
-	    }
-	   .themesbox
-	    {
+/*Large screens*/
+
+@media only screen and (min-width: 1366px)
+   {
+   	.nav
+   	{
+   	width: 85em;	
+   	}
+   	.pricing
+   	{
+   	width: 70em;
+    }
+    .contact
+   {
+   	width: 70em;
+   	padding-left:7.5em;
+   	padding-right: 7.5em;
+   }
+   .contactcontent
+   {
+   	 width:50em;
+   }
+   }
+/* 1068px Ipad plus */
+@media (max-width: 1025px) 
+{
+	body
+	{
 		justify-content: center;
-	    }
-	   .aloha, .siberia, .nordic
-	   {
-       margin:1em 2.5em 2em 2.5em;
-	   padding:3em;
-       width: 20em;
-	   max-height: 40em;
-	   }  
+		flex-direction: column;
+
+	}
+	nav
+	{
+		width: 60em;
+	}
+    nav>a
+    {
+	width: 15em;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+    }
+    nav>img
+    {
+    	display: none;
+    }
+    header img
+    {
+    	width: 60em;
+	    height: 35em;
+    }
+    .logo
+    {
+    	padding-top: 3em;
+	    padding-bottom: 3em;
+    }
+    .aboutboxes
+    {
+    	width: 46em;
+    }
+    .themes
+    {
+    	width: 52em;
+    	padding-left:4em;
+    	padding-right: 4em;
+    }
+	.themesbox
+	{
+		justify-content: center;
+		flex-direction: column;
+	}
+	.aloha, .siberia, .nordic
+    {
+	margin:1em 2em 2em 0.5em;
+	padding:4em;
+    width: 42em;
+	max-height: 40em; 
+    }
     .pricing
     {
-    width: 80em;
-	padding: 2em 7.5em 6em 7.5em;
-   }
-   .contact
-   {
-    width:90em;
-	height:65em;
+    justify-content: center;
+    align-content: center;
+	width: 52em;
+	padding: 3em 4em 6em 4em;
+	margin-bottom: 2em;
+    }
+   .pricing>h2
+    {
+    text-align: center;
+    }
+    .contact
+    {
+	width:52em;
+	padding:3em 4em 0em 4em;
     }
     .contactcontent
     {
-    width: 50em;
+    width:35em;
+    height:58em;
+	padding:3em 1em 0em 1em;
     }
     .form1,.form2,.form3,.form4,.form5
-{
-	padding-bottom: 1.5em;
-	margin-left: 10em;
-	margin-right: 10em;
+    {
+	padding-bottom: 0em;
+    }
+    .footerflowers img
+    {
+    	width: 45em;
+    }
+    .footer
+    {
+    	margin-top: 4em;
+    }
 }
-input[type=submit]
-{
-	margin-top: 1em;
-	margin-bottom: 5em; 
-}
-*/
-/* lägga till 1068 ipad plus */
-@media  (max-width:768px)
+
+@media (min-width: 481px) and (max-width:768px)
 {
 	body
 	{
@@ -386,9 +437,6 @@ input[type=submit]
 	}
     nav>a
     {
-    display: flex;
-	flex-wrap: wrap;
-	align-content:stretch;
 	width: 11em;
 	padding-top:0.5em;
 	padding-bottom: 0.5em;
@@ -410,6 +458,12 @@ input[type=submit]
     .aboutboxes
     {
     	width: 28em;
+    }
+     .themes
+    {
+    	width: 36em;
+    	padding-left:4em;
+    	padding-right: 4em;
     }
 	.themesbox
 	{
@@ -444,7 +498,8 @@ input[type=submit]
     .contactcontent
     {
     width:35em;
-	padding:1.5em 1em 1em 1em;
+    height: 50em;
+	padding:3em 1em 5em 1em;
     }
     .form1,.form2,.form3,.form4,.form5
     {
@@ -454,7 +509,10 @@ input[type=submit]
     {
     	width: 35em;
     }
-
+    .footer
+    {
+    	margin-top: 3em;
+    }
 
 }
 @media (max-width:480px)
@@ -464,10 +522,11 @@ input[type=submit]
 		display: inline-flex;
 		flex-direction: column;
 		align-content: center;
+		margin:2.5em 0em 2em 0em;
 	}
 	p
 	{
-     font-size:0.5em;
+     font-size:0.9em;
 	}
 	nav
 	{
@@ -479,7 +538,7 @@ input[type=submit]
     nav>a
     {
     background-color: transparent;
-    font-size:0.5em;
+    font-size:0.6em;
 	width:4em;
 	padding-top:0.25em;
 	padding-bottom: 0.25em;
@@ -490,7 +549,7 @@ input[type=submit]
     }
     header img
     {
-    	width: 32em;
+    	width: 25em;
 	    height: 14em;
     }
     header h1
@@ -500,7 +559,7 @@ input[type=submit]
     }
     .logo
     {
-    	font-size:1em;
+    	font-size:0.8em;
     }
     .logo img
     {
@@ -509,17 +568,18 @@ input[type=submit]
     }
     .about
     {
-    	width:25em;
+    	width:20em;
     }
     .aboutboxes
     {
-    	width: 16em;
+    	width: 14em;
     	
     }
     .themes
     {
         justify-content: center;
-    	width: 25em;
+        align-content: center;
+    	width: 20em;
     }
 	.themesbox
 	{
@@ -530,25 +590,26 @@ input[type=submit]
 	}
 	.aloha, .siberia, .nordic
     {
-    	
-	margin:0.2em 0.5em 0.4em 0.5em;
-	padding:0.75em;
-    width: 22.5em;
+    align-self: center;
+	margin:0.2em 0.5em 1em 0.5em;
+	padding:2em;
+    width: 17em;
 	max-height: 20em;
     }
     .pricing
     {
-	width: 25em;
+    align-content: center;
+	width: 20em;
 	bottom: 0.5em;
     }
     th, td
     {
-	padding:2em;
+	padding:1.5em;
     }
     table
     {
-    font-size:0.5em;
-	padding:1em; 
+    font-size:0.6em;
+	padding:0.6em; 
     }
     h2
     {
@@ -564,12 +625,16 @@ input[type=submit]
     {
     flex-direction: column;
     justify-content: center;
-    width: 25em;
+    width: 20em;
     height: 37em;
+    }
+    .contact>p
+    {
+    	line-height: 0.8em;
     }
     .contactcontent
     {
-    width:22em;
+    width:18em;
     height: 36em;
     }
     .form1,.form2,.form3,.form4,.form5
@@ -578,15 +643,19 @@ input[type=submit]
    	width:18em;
 	padding-bottom: 0.1em;
 	margin-right: 1em;
-	margin-left:6.5em;
+	margin-left:3em;
     }
     input
     {
     font-size:0.75em;
     }
+    textarea
+    {
+    	height: 6em;
+    }
     .footerflowers img
     {
-     width: 25em;
+     width: 20em;
      height: 6em;
     }
     .footer
@@ -595,6 +664,10 @@ input[type=submit]
 	text-align: center;
     padding:0.2em;
     }
-
+    footer
+    {
+    	 padding-top:4em;
+    }
+   
 }
 /*edia (min-width: ..större än laptop..min..)*/
