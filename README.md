@@ -43,8 +43,43 @@ The things my classmate (Selected by teacher) will be looking at are:
 
 So Here´s my first attempt at the Arboreal -Assignment. 
 Validated by W3C Validators HTML and CSS without any varnings or errors. On bottom of the site you can find the W3C Validated "stamp".
-  Arboreal - Part 2.
-  
+ 
+ 
+ Arboreal - Part 2.
+ 
+    
+ The new assignments for the second part of the assignment are:
+ 
+ Passing the acidtest
+ * Checkpoints from part one is valid.
+ * Implementaion of own media queries. Mobile, tablet and desktop.
+ * You choose your own breakpoints, you should also motivate your choises in the README.md
+* Description of resposive pattern and why it´s appropriate for yor website.
+* Improvements made from Peerview- feedback.
+
+
+On a higher level.
+* Use fallbacks - older browsers.
+* You have tested your site in different browsers and your site have a consistent behavior and design.
+Safari, Chrome, Firefox, Microsoft Edge samt Internet Explorer 11 ( There can be differenses, though it still needs to look acceptable.)
+* Use Feature queires to handle cases where some properties are not supported.
+* Use Vendor prefixing.
+* Functional site in both Android and iOS.
+
+My Arboreal site- Part 2.
+
+- Think all the checkpoint from Part 1 are ok. 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+I implemented media queries choosing a few, trying to cover as many devices as possible based on which screensizes are the most popular. My Breakpoints are 480px/ 768px/ 1024px/ 1440px/ 1920px.
+The resposive pattern is mostly fluid I think. I didn´t have that much content, so I figured it was suitable.
+     
   Feedback from fellow student:
   * HTML and CSS looks nice and well structured.
   
@@ -70,11 +105,10 @@ Validated by W3C Validators HTML and CSS without any varnings or errors. On bott
   * To similar colors, make a confusing impression.
   - Well I remade all the colors, by working with collecting colors in photoshop from the main picture.
     Using gradiants to blend them in. 
-    
-   The new assignments for the second part of the assignment are:
-   
-   
   
+
+Unfortunatly I did´nt find time to implement the terms for getting to the higher level. I was playing around with background-gradients and media queries for to long:  
+
 
 Pernilla Qvist -Frontend Development -Nackademin 2017.
 
