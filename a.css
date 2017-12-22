@@ -1,5 +1,6 @@
 body
 {   
+    flex: 1 1 auto;
 	background-color:#090c12;
 	color:#ffffff;
 	font-family: verdana;
@@ -218,10 +219,7 @@ table
 	width:71em;
 	height:65em;
 	padding:6em 2em 6em 2em;
-	background:linear-gradient( #03171d 30%, #090c12 40%, #03171d 60%);
-
 	background:linear-gradient(#03171d,#090c12);
-	/*background-color:#13181a;*/
 	color: #bfa161;
     border-radius: 0.5em;   
 }
@@ -260,8 +258,6 @@ input[type=submit]
 	margin-top: 1em;
 	margin-bottom: 3em;
 	background:linear-gradient(#786479,#703452);
-
-/*	background-color:#703452;*/
 	color: #ffffff;
     padding: 0.5em 4em;
     border: none;
@@ -310,8 +306,139 @@ footer
 }
 
 /*Large screens*/
+@media only screen and (min-width: 1920px)
+   {
+    body
+    {
+        align-content: center;
+        justify-content: center;
+    }
+    p
+    {
+        font-size:1.5em;
+    }
+    h2
+    {
+        font-size: 3em;
+    }
+    h3
+    {
+        font-size:2em;
+    }
+    .logo
+    {
+        font-size:2.5em;
+    }
 
-@media only screen and (min-width: 1440px)
+    nav
+    {
+    width: 117em;
+    height: 5em;
+    }
+    nav>a
+    {
+        width: 15em;
+        font-size:1.5em;
+    }
+    nav img
+    {
+         width: 2.5%; 
+         padding-left: 10em;
+         padding-right: 8em;
+    }
+    header
+    {
+        align-content: flex-start;
+    }
+    header h1
+    {
+        font-size: 4.5em;
+    }
+    header img
+    {
+        width: 117em;
+        height: 60em;
+    }
+    .aloha, .siberia, .nordic
+    {
+    padding:5em;
+    width: 25em;
+    max-height: 40em; 
+    }
+       .aboutboxes
+    {
+      width: 75em;
+      padding: 8em 15em 8em 15em;
+    }
+    .themesbox
+   {
+        justify-content: center;
+    }
+   
+    .pricing
+    {
+    width: 100em;
+    }
+    th
+    {
+        font-size: 2em;
+    }
+    td
+    {
+    padding:2.5em;   
+    }
+
+    .contact
+   {
+    width: 110em;
+    height: 125em;
+   }
+   .contactcontent {
+    width: 90em;
+    height: 120em;
+    padding-top: 7em;
+    padding-bottom: 2em;
+}
+   .form1, .form2, .form3, .form4, .form5
+   {
+    padding-bottom: 2em;
+    padding-left: 15em;
+    padding-right: 15em;
+    }
+   input
+   {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+   }
+   textarea
+   {
+    height: 30em;
+   }
+    input[type=submit] 
+   {
+    font-size:2em;
+    padding: 1em 10em; 
+   }
+   footer
+   {
+    font-size:1,5em;
+    width: 117em;
+   }
+   .footer
+   {
+    font-size: 1.5em;
+   }
+   .footerflowers img
+   {
+     width: 117em;
+     height: 35em;
+     padding-top: 5em;
+
+   }
+ 
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px)
    {
    	body
    	{
@@ -355,7 +482,7 @@ footer
  
 }
 /* 1068px Ipad plus */
-@media (min-width: 769px) and (max-width: 1025px) 
+@media (min-width: 769px) and (max-width: 1024px) 
 {
 	body
 	{
@@ -529,10 +656,20 @@ footer
     .footerflowers img
     {
     	width: 35em;
+        height: 15em;
+        padding-top: 3em;
     }
-    .footer
+    .footer 
     {
-    	margin-top: 3em;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    }
+    footer
+    {
+    	padding-top:4em;
     }
 
 }
@@ -547,7 +684,7 @@ footer
 	}
 	p
 	{
-     font-size:0.9em;
+       font-size:0.9em;
 	}
 	nav
 	{
@@ -570,11 +707,11 @@ footer
     }
     header
     {
-        width: 28em;
+        width: 27em;
     }
     header img
     {
-    	width:28em;
+    	width:27em;
 	    height: 16em;
     }
     header h1
@@ -584,8 +721,8 @@ footer
     }
     .logo
     {
-    	font-size:0.75em;
-        width: 37em;
+    font-size:0.75em;
+  /*  width:33.5em;*/
     }
     .logo img
     {
@@ -594,11 +731,12 @@ footer
     }
     .about
     {
-    	width:20em;
+    	width:19em;
+        padding-bottom: 1.5em;
     }
     .aboutboxes
     {
-     width: 16em;
+     width: 15em;
     	
     }
     .themes
@@ -607,11 +745,10 @@ footer
         align-content: center;
         padding-left: 1em;
         padding-right: 1em;
-    	/*width: 20em;*/
+        padding-bottom: 1.5em;
     }
 	.themesbox
 	{
-		/*width: 8em;*/
 		flex-direction: column;
 		justify-content: center;
 
@@ -622,23 +759,26 @@ footer
 	margin:0.2em 0.5em 1em 0.5em;
 	padding:2em;
 	max-height: 20em;
-    width: 20em;
+    width: 19em;
     }
     .pricing
     {
     align-content: center;
-	width: 26em;
+	width: 25em;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1.5em;
 	bottom: 0.5em;
     }
     th, td
     {
-	padding:1.5em;
+    border:none;
+    border-radius:0.5em;
+	padding:1.35em;
     }
     table
     {
-    width:24em;
+    width:23em;
     font-size:0.75em;
 	padding:0.6em; 
     }
@@ -656,8 +796,9 @@ footer
     {
     flex-direction: column;
     justify-content: center;
-    width: 24em;
-    height: 37em;
+    width: 23em;
+    height: 40em;
+    padding-bottom: 1.5em;
     }
     .contact>p
     {
@@ -665,16 +806,16 @@ footer
     }
     .contactcontent
     {
-    width:25em;
-    height: 38em;
+    width:24em;
+    height: 40em;
     }
     .form1,.form2,.form3,.form4,.form5
    {
    	font-size: 0.5em;
-   	width:25em;
+   	width:24em;
 	padding-bottom: 0.1em;
 	margin-right: 1em;
-    margin-left: 7em;
+    margin-left: 5em;
     }
     input
     {
@@ -686,14 +827,16 @@ footer
     }
     .footerflowers img
     {
-     width: 20em;
-     height: 6em;
+     width: 25em;
+     height: 8em;
     }
     .footer
     {
-	font-size: 0.5em;
-	text-align: center;
-    padding:0.2em;
+    font-size: 0.75em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: 0em;
+    margin-bottom: 2em;
     }
     footer
     {
